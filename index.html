@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/normalize.css">
+    <link rel="stylesheet" href="Css/master.css">
+    <!-- Google Fonts : Open Sans -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" >
+    <title>CarWow</title>
+</head>
+<body>
+    <!-- Start Settings Box -->
+    <div class="settings-box">
+        <div class="toggle-settings">
+            <i class="fa fa-gear settings-icon"></i>
+        </div>
+        <div class="settings-container">
+            <div class="option-box">
+                <h4>Colors</h4>
+                <ul class="colors-list">
+                    <li data-color="#03a9f4" class="active"></li>
+                    <li data-color="#9c27b0"></li>
+                    <li data-color="#009688"></li>
+                    <li data-color="#ff5722"></li>
+                    <li data-color="#e91e63"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>Random Backgrounds</h4>
+                <div class="random-backgrounds">
+                    <span class="yes active" data-background="yes">Yes</span>
+                    <span class="no" data-background="no">No</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>Show Bullets</h4>
+                <div class="bullets-option">
+                    <span class="yes active" data-display="show">Yes</span>
+                    <span class="no" data-display="hide">No</span>
+                </div>
+            </div>
+            <button class="reset-options">Reset Options</button>
+        </div>
+    </div>
+    <!-- End Settings Box -->
+    <!-- Start Nav Bullets  -->
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".about-us">
+            <div class="tooltip">About Us</div>
+        </div>
+        <div class="bullet" data-section=".cpp">
+            <div class="tooltip">CPP</div>
+        </div>
+        <div class="bullet" data-section=".gallery">
+            <div class="tooltip">Our Gallery</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tooltip">TimeLine</div>
+        </div>
+        <div class="bullet" data-section=".investors">
+            <div class="tooltip">Investors</div>
+        </div>
+        <div class="bullet" data-section=".testimonials">
+            <div class="tooltip">Team</div>
+        </div>
+    </div>
+    <!-- End Nav Bullets  -->
+    <!-- Start Landing Page  -->
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header-area">
+                <div class="logo">carwow</div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li><a href="#" class="active" data-section=".about-us">About</a></li>
+                        <li><a href="#" data-section=".cpp">Cpp</a></li>
+                        <li><a href="#" data-section=".gallery">Gallery</a></li>
+                        <li><a href="#" data-section=".timeline">Timeline</a></li>
+                        <li><a href="#" data-section=".investors">Investors</a></li>
+                        <li><a href="#" data-section=".testimonials">Team</a></li>
+                    </ul>
+                    <button class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>  
+        </div>
+        <div class="introduction-text">
+            <h1>The car buying <span>comparison</span> site</h1>
+            <p>Save on average £2,900 off RRP. Compare offers on new & nearly new cars, from top rated local and national UK dealers.</p>
+        </div>
+    </div>
+    <!-- End Landing Page  -->
+    <!-- Start About Us  -->
+    <div class="container">
+        <div class="about-us">
+            <div class="info-box">
+                <h2>About Us</h2>
+                <p>With the mission of creating the ultimate online car buying and selling experience, carwow helps its 12+ million users discover the best new car for them, compare offers and buy directly from trusted dealers.</p>
+            </div>
+            <div class="image-box">
+                <i class="fa-solid fa-car fa-10x"></i>
+            </div>
+        </div>
+    </div>
+    <!-- End About Us  -->
+    <!-- Start Country Presence Percentage  -->
+    <div class="cpp">
+    <div class="container">
+            <h2>Country Presence Percentage</h2>
+            <div class="cpp-box">
+                <div class="cpp-name">UK</div>
+                <div class="cpp-progress">
+                    <span data-progress="90%"></span>
+                </div>
+            </div>
+            <div class="cpp-box">
+                <div class="cpp-name">Germany</div>
+                <div class="cpp-progress">
+                    <span data-progress="85%"></span>
+                </div>
+            </div>
+            <div class="cpp-box">
+                <div class="cpp-name">France</div>
+                <div class="cpp-progress">
+                    <span data-progress="70%"></span>
+                </div>
+            </div>
+            <div class="cpp-box">
+                <div class="cpp-name">Italy</div>
+                <div class="cpp-progress">
+                    <span data-progress="80%"></span>
+                </div>
+            </div>
+            <div class="cpp-box">
+                <div class="cpp-name">Spain</div>
+                <div class="cpp-progress">
+                    <span data-progress="60%"></span>
+                </div>
+            </div>
+            <div class="cpp-box">
+                <div class="cpp-name">Belgium</div>
+                <div class="cpp-progress">
+                    <span data-progress="50%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Country Presence Percentage  -->
+    <!-- Start Gallery -->
+    <div class="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="images-box">
+                <img src="Images/01.jpg" alt="">
+                <img src="Images/02.jpg" alt="SLS AMG">
+                <img src="Images/03.jpg" alt="Ferrari Enzo">
+                <img src="Images/04.jpg" alt="Porsche 911">
+                <img src="Images/05.jpg" alt="Lamborghini Aventador">
+                <img src="Images/06.jpg" alt="SLR McLaren">
+                <img src="Images/07.jpg" alt="Ferrari LaFerrari">
+                <img src="Images/08.jpg" alt="SLS AMG">
+                <img src="Images/09.jpg" alt="Ferrari F40">
+                <img src="Images/10.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- End Gallery -->
+    <!-- Start TimeLine  -->
+    <div class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2021</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>The carwow story</h3>
+                        <p>With the mission of creating the ultimate online car buying and selling experience, carwow helps its 12+ million users discover the best new car for them, compare offers and buy directly from trusted dealers.</p>
+                    </div>
+                </div>
+                <div class="clearFix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>The carwow story</h3>
+                        <p>In 2021, it launched sell your car following the acquisition of Wizzle, meaning users can also compare offers to selling their old car to trusted dealers in the same way they get offers for buying new cars.</p>
+                    </div>
+                </div>
+                <div class="clearFix"></div>
+                <div class="year">2022</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Engaging and educating</h3>
+                        <p>First conceived as a car review aggregator, carwow has also become one of the most influential names in car media, underpinned by the most popular automotive channel on YouTube with over 6.8 million subscribers.</p>
+                    </div>
+                </div>
+                <div class="clearFix"></div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Empowering and partnering</h3>
+                        <p>Built to help the car industry embrace the online world, carwow offers a suite of data-driven tools and services, including lead generation, stock sourcing, brand building, e-commerce training, marketing and advertising.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End TimeLine  -->
+    <!-- Start Investors  -->
+    <div class="investors">
+        <h2>Our Investors</h2>
+        <div class="container">
+            <div class="invest-box">
+                <img src="Images/Investor 1.svg" alt="">
+                <h4>Vitruvian</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, illo!</p>
+            </div>
+            <div class="invest-box">
+                <img src="Images/Investor 2.svg" alt="">
+                <h4>Balderton</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, illo!</p>
+            </div>
+            <div class="invest-box">
+                <img src="Images/Investor 3.svg" alt="">
+                <h4>Accel</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, illo!</p>
+            </div>
+            <div class="invest-box">
+                <img src="Images/Investor 4.svg" alt="">
+                <h4>Episode 1</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, illo!</p>
+            </div>
+            <div class="invest-box">
+                <img src="Images/Investor 5.svg" alt="">
+                <h4>Samos Investments</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, illo!</p>
+            </div>
+            <div class="invest-box">
+                <img src="Images/Investor 6.svg" alt="">
+                <h4>Daimler</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, illo!</p>
+            </div>
+            <div class="clearFix"></div>
+        </div>
+    </div>
+    <!-- End Investors  -->
+    <!-- Start Team Members -->
+    <div class="team">
+        <div class="container">
+            <h2>Team Members</h2>
+            <div class="team-box">
+                <p>Having founded carwow with the mission of helping people choose and buy the best car for them, James has built carwow into the most exciting marketplace and media brand in the automotive sector. Prior to founding carwow, he worked as a ski guide.</p>
+                <div class="person-info">
+                    <img src="Images/james_hind.png" alt="">
+                    <h4>James Hind</h4>
+                    <p>Founder and CEO</p>
+                </div>
+            </div>
+            <div class="team-box">
+                <p>Responsible for leading our people and culture strategy for 260+ staff across our countries, Laura ensures we have class-leading scalable talent management practices and maintaining an environment in which a first-class team can flourish</p>
+                <div class="person-info">
+                    <img src="Images/laura_shipperlee.png" alt="">
+                    <h4>Laura Shipperlee</h4>
+                    <p>Chief People Officer</p>
+                </div>
+            </div>
+            <div class="team-box">
+                <p>Leading carwow's highly respected and influential editorial team, Mat is best known as the face of the carwow YouTube channel</p>
+                <div class="person-info">
+                    <img src="Images/mat_watson.png" alt="">
+                    <h4>Mat Watson</h4>
+                    <p>Chief Content Officer</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearFix"></div>
+    </div>
+    <!-- End Team Members -->
+    <!-- Start Contact Us  -->
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" placeholder="Your Name" name="username">
+                    <input type="text" placeholder="Your Phone" name="phone">
+                    <input type="email" placeholder="Your Email" name="email">
+                    <input type="text" placeholder="Subject" name="subject">
+                </div>
+                <div class="right">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- End Contact Us  -->
+    <!-- Start Footer  -->
+    <div class="footer">Created With Passion By Hazem Ben Abdallah</div>
+    <!-- End Footer  -->
+
+
+    <script src="Js/master.js"></script>
+</body>
+</html>
